@@ -1,3 +1,8 @@
+---
+title: Design
+parent: Fejlesztés
+nav_order: 3
+---
 # Design
 
 ## Semantic UI témázása
