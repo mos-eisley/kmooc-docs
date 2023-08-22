@@ -13,8 +13,10 @@ Automatikus deployment-kor a következő lépések hajtódnak végre:
 * Automatikus egységtesztek futtatása
 * A változásoknak megfelelően a containek újbóli létrehozása a deploy-álása. A kiesési idő ilyenkor minimális: leáll a régi container és indul az új.
 
-!!! important "Fontos"
-    A fenti pipeline miatt nem javasolt a container-eken kézzel módosítást végezni (pl. szoftvert telepíteni, konfigurációt módosítani), mivel a következő release-kor ezek felülíródnak. A konfigurációk a forráskód részét képezik és a forráskezelő rendszerben kerülnek tárolásra (a sensitive adatok, pl. SSH privát kulcs nem kerülnek be a források közé, ezeket a deployment rendszer *secure variables* tárolója szolgáltatja).
+{: .important-title }
+> Fontos
+> 
+> A fenti pipeline miatt nem javasolt a container-eken kézzel módosítást végezni (pl. szoftvert telepíteni, konfigurációt módosítani), mivel a következő release-kor ezek felülíródnak. A konfigurációk a forráskód részét képezik és a forráskezelő rendszerben kerülnek tárolásra (a sensitive adatok, pl. SSH privát kulcs nem kerülnek be a források közé, ezeket a deployment rendszer *secure variables* tárolója szolgáltatja).
 
 # Előfeltételek CentOS rendszeren
 

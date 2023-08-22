@@ -5,11 +5,13 @@ nav_order: 3
 ---
 # Új félév indításakor elvégzendő lépések
 
-!!! important "Fontos"
-    A felhasználók a félév lezárta után is beiratkoztatva maradnak a kurzusokra, és a KMOOC-ból elérhetik azokat. Ezért új félév indításakor a Moodle-ban a meglévő kurzusok maradjanak elérhetőek, és az új félévhez új Moodle kurzust hozzunk létre. Ezt a Moodle kurzust fogjuk hozzárendelni a KMOOC egy kurzusidőpontjához.
+{: .important-title }
+> Fontos
+> A felhasználók a félév lezárta után is beiratkoztatva maradnak a kurzusokra, és a KMOOC-ból elérhetik azokat. Ezért új félév indításakor a Moodle-ban a meglévő kurzusok maradjanak elérhetőek, és az új félévhez új Moodle kurzust hozzunk létre. Ezt a Moodle kurzust fogjuk hozzárendelni a KMOOC egy kurzusidőpontjához.
 
-!!! important "Fontos"
-    Amennyiben új Moodle kerül telepítésre (nem frissítés), az LMS kapcsolatoknál hozzunk létre egy újat, így az azonosítóütközések elkerülhetőek.
+{: .important-title }
+> Fontos
+> Amennyiben új Moodle kerül telepítésre (nem frissítés), az LMS kapcsolatoknál hozzunk létre egy újat, így az azonosítóütközések elkerülhetőek.
 
 A lépések:
 
