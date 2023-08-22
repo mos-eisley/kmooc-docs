@@ -2,6 +2,7 @@
 title: Facebook / Google bejelentkezés
 parent: Üzemeltetés
 nav_order: 3
+has_children: true
 ---
 {: .warning-title }
 > Deprecated
