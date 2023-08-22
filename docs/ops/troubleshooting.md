@@ -1,3 +1,8 @@
+---
+title: Hibaelhárítás
+parent: Üzemeltetés
+nav_order: 3
+---
 # Hibaelhárítás
 
 ## Nem működik az adatok mentése

@@ -1,3 +1,8 @@
+---
+title: Biztonsági mentés
+parent: Üzemeltetés
+nav_order: 3
+---
 # Áttekintés
 
 Mivel a rendszer teljes futtatási környezete újra előállítható az automatikus deployment segítségével, csupán az adatokat szükséges menteni. A rendszer által használt összes változó adat a `coursecatalog_db_1` container-ben futó MariaDB adatbázis szerver `course_catalog` adatbázisában található.

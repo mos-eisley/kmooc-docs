@@ -1,3 +1,8 @@
+---
+title: Új félév indítása
+parent: Üzemeltetés
+nav_order: 3
+---
 # Új félév indításakor elvégzendő lépések
 
 !!! important "Fontos"

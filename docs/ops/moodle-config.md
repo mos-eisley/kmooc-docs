@@ -1,3 +1,8 @@
+---
+title: Moodle LMS csatolása
+parent: Üzemeltetés
+nav_order: 3
+---
 # Áttekintés
 
 A KMOOC és a Moodle MNET szabványú kommunikációs csatornát használ az távoli autentikációhoz, illetve a kurzusokra való beiratkozáshoz. A csatorna asszimetrikus kulccsal titkosított xmlrpc alapon működik.

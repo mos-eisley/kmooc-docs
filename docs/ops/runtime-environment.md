@@ -1,3 +1,8 @@
+---
+title: Futtatási környezet
+parent: Üzemeltetés
+nav_order: 3
+---
 # Futtatási környezet
 
 Az alkalmazás egyes komponensei [Docker](https://www.docker.com/) container-ekben futnak. A Docker-ről további információ: [https://www.docker.com/what-docker](https://www.docker.com/what-docker)

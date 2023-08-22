@@ -1,3 +1,8 @@
+---
+title: Container-ek kezelése
+parent: Üzemeltetés
+nav_order: 3
+---
 # Áttekintés
 
 A következőkben áttekintjük azokat az alapvető parancsokat, melyekkel a container-eket lekérdezni és adminisztrálni tudjuk. Ez nem tekinthető teljes Docker leírásnak, csupán az alapvető adminisztrációhoz szükséges parancsokat tartalmazza (teljeskörű leírás: [Docker docs](https://docs.docker.com/)).

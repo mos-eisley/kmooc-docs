@@ -1,3 +1,8 @@
+---
+title: Deployment
+parent: Üzemeltetés
+nav_order: 3
+---
 # Automatikus deployment
 
 A rendszerből új verzió automatikus deployment segítségével kerül ki a teszt rendszerekre és az éles rendszerre. Első körben kikerül a teszt rendszerre az új verzió, majd tesztelés után kap egy verziócímkét a GIT-ben, melynek hatására elindul az automatikus telepítés az éles rendszerre.

@@ -1,3 +1,8 @@
+---
+title: Üzemeltetés
+has_children: true
+nav_order: 2
+---
 # Áttekintés
 
 A dokumentum célja, hogy leírja a rendszer üzemeltetéséhez szükséges információkat. Ez magában foglalja:

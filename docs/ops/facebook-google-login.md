@@ -1,3 +1,8 @@
+---
+title: Facebook / Google bejelentkezés
+parent: Üzemeltetés
+nav_order: 3
+---
 !!! warning "Deprecated"
 		A Facebook és Google bejelentkezés a jelenlegi verzióban nem működik.
 		
