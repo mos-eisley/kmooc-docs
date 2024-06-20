@@ -1,26 +1,49 @@
+---
+title: Félév zárása
+parent: Üzemeltetés
+nav_order: 3
+---
+*Útmutató kezdőknek és feledékenyeknek, avagy hogyan ne haljunk meg félév végén.*
+
 ## Jegyek beírása K-MOOC rendszerbe
 A jegyek beírásához az oktatóktól kapott táblázatokat az importfájl szerint kell formázni:
-Email  Érdemjegy
-pelda.panna@mail.com	  2
-Ha a kapott táblázat nem tartalmazza az e-maileket, a K-MOOC webről a kurzushoz tartozó jelentkezéseket kell letölteni, az Excel exportra kattintva.
- 
-Az adatok összefésülésére XKERES függvényt érdemes használni.
-A kész táblázat fájltípusa: .csv (pontosvesszővel elválasztott)
-A K-MOOC weben a jegyek felöltésére a Jegy Import funkció felel.
-Ha nem küldött teljes listát, csak 2-es és jobb jegyekről, akkor importálás után szedd le a listát, írd át a 0-s érdemjegyeket 1-esre, és .csv fájlként töltsd vissza.
-Beírt jegyek ellenőrzése
+
+| Email | Érdemjegy |
+|:-----|:---------:|
+| pelda.panna@mail.com	| 2|
+
+> Ha a kapott táblázat nem tartalmazza az e-mail-címeket, a K-MOOC webről a kurzushoz tartozó jelentkezéseket kell letölteni, az Excel exportra kattintva.
+
+Az adatok összefésülésére **XKERES** függvényt érdemes használni. A kész táblázat fájltípusa: **.csv** (pontosvesszővel elválasztott)
+
+A K-MOOC weben a jegyek felöltésére a **Jegy Import** funkció felel.
+![image](https://github.com/mos-eisley/kmooc-docs/assets/94133260/4c2ff90f-fa17-4594-8fb1-303675f459ed)
+
+>Ha az oktató nem küldött teljes listát, csak 2-es és jobb jegyekről, akkor importálás után szedd le az **Excel exporttal** a teljes táblát, írd át a 0-s érdemjegyeket 1-esre, és .csv fájlként töltsd vissza.
+
+## Beírt jegyek ellenőrzése
 Töltsd le a kurzus felületéről az Excel fájlt.
-Hozz létre benne egy új munkalapot, ahová másold az oktatótól kapott táblázatot.
+Hozz létre benne egy új munkalapot, ahová másolod az oktatótól kapott táblázatot.
  
 Ellenőrizd XKERES függvénnyel, hogy azt az érdemjegyet kapták-e, ami az oktatói táblában szerepel.
-Ha eltérés van, mint a fenti ábrán, az oktatói táblában a 0-kat, kihúzásokat és egyéb kommenteket is cseréld le 1-esre.
+
+> =XKERES(D2;Munka1!E:E;Munka1!D:D;1)
+
+![image](https://github.com/mos-eisley/kmooc-docs/assets/94133260/4d90138b-89fb-4ed2-b951-c34b09c4d8ed)
+
+*Ha eltérés van, mint a fenti ábrán, az oktatói táblában a 0-kat, kihúzásokat és egyéb kommenteket is cseréld le 1-esre.*
 Az Ellenőrzés oszlop egy sima összehasonlítás, hogy az Érdemjegy oszlop megegyezik-e a KMOOC check-kel (később csak CH és OK? oszlopok).
-=HA(L2=M2;1;404)
-Ahol az Ellenőrzés oszlopban 404 található, ott eltérés van. Ezeket írd fel!
-K-MOOC kreditigazolás kiküldése
-Csináld rendesen
-Mentsd el a visszaadott fájlokat, töltsd fel a mappába.
-Neptun import
+
+> =HA(L2=M2;1;404)
+
+Ahol az Ellenőrzés oszlopban 404 található, ott eltérés van. Ezeket írd fel! *Lehetőleg a Jegybeírás folyamatjelző megosztott Excel fájl külön lapjára*
+
+## K-MOOC kreditigazolás kiküldése
+
+*Lehetőleg csináld rendesen, hogy ne kelljen utána ezzel szórakozni ^^*
+
+Mentsd el a visszaadott fájlokat, töltsd fel a megfelelő mappába.
+## Neptun import
 Kösd fel a gatyót…
 Hozzávalók:
 -	1 db K-MOOC kurzusjelentkezések táblázat (letölt)
