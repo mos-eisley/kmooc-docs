@@ -46,8 +46,8 @@ Ha minden jó, ***push the button***!
 Mentsd el a visszaadott fájlokat, töltsd fel a megfelelő mappába.
 
 ## Neptun import
-*Kösd fel a gatyót…*4
-Elkészítési idő: **3-5 óra**
+*Kösd fel a gatyót…*\
+Elkészítési idő: **3-5 óra**\
 Kalória: -156.000 cal
 
 ### Hozzávalók:
